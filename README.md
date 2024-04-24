@@ -13,9 +13,9 @@
 
 <h3>Запросы</h3>
 <h4>http://localhost:8080/corporate-settlement-instance/create</h4>
-<code>
+<p>
 {
-    "instanceid": "1",
+    "instanceid": "",
     "productType": "НСО",
     "productCode": "03.012.002",
     "registerType": "ddd",
@@ -59,9 +59,9 @@
             "supplementaryAgreementId": "f"
     }]
 }
-</code>
+</p>
 <h4>http://localhost:8080/corporate-settlement-account/create</h4>
-<code>
+<p>
 {
     "instanceId":"2",
     "registryTypeCode":"03.012.002_47533_ComSoLd",
@@ -75,4 +75,4 @@
     "counter":"00",
     "salesCode":"001"
 }
-    </code>
+</p>
